@@ -1,0 +1,352 @@
+*,html, body
+{
+	margin: 0;
+	padding: 0;
+}
+
+
+ul
+{
+	list-style: none;
+	margin-left: 0;	
+	padding: 0;
+	width: 19.8%;
+	background-color: #f1f1f1;
+	border-right: solid #FC6C85;
+	position: absolute;
+	height: 120%;
+}
+
+nav li a
+{
+	margin-left: 10px;
+	padding: 10px 16px;
+	display: block;
+	font-weight: bold;
+	font-family: arial;
+	font-size: 13px;
+	color: #000;
+	text-decoration: none;
+}
+
+
+li a:hover:not(.active) {
+  background-color: #ffb6c1;
+  color: white;
+}
+
+div p
+{
+	padding: 10px 16px;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+p
+{
+	font-family: arial;
+}
+
+
+img{
+	padding: 0;
+	width: 20%;
+	height: 24.5%;
+}
+
+.container 
+{
+  position: relative;
+  text-align: left;
+  color: white;
+}
+
+.centered 
+{
+  position: absolute;
+  top: 80%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+}
+
+.profile
+{
+	position: absolute;
+  	top: 50px;
+  	left: 30px;
+	width: 70px;
+  	height: 70px;
+  	border-radius: 50%;
+}
+
+header
+{
+	background-color: #FC6C85;
+	height: 110px;
+}
+
+.logo
+{
+	position: absolute;
+  	top: 15px;
+  	left: 25%;
+	width: 75px;
+  	height: 75px;
+  	border-radius: 50%;
+}
+
+.UIC
+{
+	position: absolute;
+  	top: 30px;
+  	left: 32%;
+	width: 200px;
+  	height: 63.33px;
+}
+
+.background
+{
+	box-shadow: 0px 5px #8a795d;
+}
+
+#schedule {
+  	background-color: white;
+  	width: 19.8%;
+  	height: 300px;
+  	top: 400px;
+  	position: absolute;
+  	border-right: solid #FC6C85;
+  	padding: 0;
+  	margin: 0;
+}
+
+select {
+	width: 70%;
+	top: 60%;
+	position: absolute;
+	padding: 12px 10px;
+	left: 40px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+input[type="text"]
+{
+	width: 70%;
+	top: 63px;
+	position: relative;
+	padding: 12px 10px;
+	margin: 5px 40px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	font: 1rem san-serif;
+}
+
+input[type="date"]
+{
+	width: 70%;
+	top: 65px;
+	position: relative;
+	padding: 12px 10px;
+	margin: 5px 40px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	font: 1rem san-serif;
+}
+
+input[type=submit] 
+{
+	width: 40%;
+	background-color: #FC6C85;
+	color: white;
+	padding: 10px 20px;
+	position: absolute;
+	top: 83%;
+	left: 29%;
+	margin: 0px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+#career
+{
+	position: absolute;
+	top: 15px;
+	color: black;
+	left: 40px;
+	font-size: 15px
+}
+
+.Logout  
+{
+	position: absolute;
+	top: 25%;
+	left: 13%;
+	border-radius: 15px;
+}
+
+a
+{
+	
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	font-family: arial;
+}
+
+#form1 {
+  background-color: #ffe9ec;
+  width: 725.5px;
+  height: 535px;
+  top: 138px;
+  left: 22%;
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  border-radius: 15px;
+}
+
+#image1
+{
+	position: absolute;
+	width: 675px;
+	height: 250px;
+	top: 20px;
+	left: 3.5%
+}
+
+.box1
+{
+	position: absolute;
+	background-color: #f1f1f1;
+	width: 675px;
+	height: 235px;
+	margin-top: 38%;
+	margin-left: 3.5%;
+}
+
+.box2
+{
+	position: absolute;
+	background-color: #FC6C85;
+	width: 675px;
+	height: 29px;
+}
+
+#News
+{
+	font-weight: bold;
+	font-family: arial;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+
+#title1
+{
+	font-weight: bold;
+	font-family: arial;
+	font-size: 18px;
+	color: black;
+	margin-top: 3%;
+	margin-left: 5px;
+}
+
+#form2 {
+  background-color: #f1f1f1;
+  width: 300.5px;
+  height: 250px;
+  top: 120px;
+  left: 77.7%;
+  position: absolute;
+  padding: 0;
+  margin: 0;
+}
+
+.box3
+{
+	position: absolute;
+	background-color: #FC6C85;
+	width: 300px;
+	height: 29px;
+	list-style-type: none;
+}
+
+.scheduling
+{
+	margin-top: 5px;
+	margin-left: 45px;
+	color: white;
+}
+
+.time
+{
+	width: 160px;
+	height: 50px;
+	border-right: none;
+	margin-top: 17%;
+	margin-left: 22%;
+	background: no-repeat;
+}
+
+#chatbox
+{
+	background-color: #f1f1f1;
+  	width: 300.5px;
+  	height: 325px;
+  	top: 370px;
+  	left: 77.7%;
+  	position: absolute;
+  	padding: 0;
+  	margin: 0;
+}
+
+#chatbox1
+{
+	position: absolute;
+	background-color: #FC6C85;
+	width: 300px;
+	height: 35px;
+	list-style-type: none;
+}
+
+.chat
+{
+	margin-top: 5.5px;
+	margin-left: 105px;
+	color: white;
+
+}
+
+textarea
+{
+	margin-top: 10px;
+	margin-left: 10px;
+	width: 280px;
+	height: 170px;
+}
+
+.type1
+{
+	margin-top: 50px;
+	margin-left: 10px;
+}
+
+.Send 
+{
+	width: 10%;
+	background-color: #FC6C85;
+	color: white;
+	padding: 10px 20px;
+	position: absolute;
+	top: 83%;
+	left: 29%;
+	margin: 0px;
+	margin-left: 10%;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
